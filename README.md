@@ -36,7 +36,7 @@ The engine leverages vector-based retrieval and generative summarization to iden
 - Stores section embeddings and references to full case metadata.
 
 ## Vector store and Retrieval
-- Implements FAISS/ChromaDB index.
+- Implements ChromaDB index.
 - Given a user query, retrieves top-k similar sections.
 - Returns text, case name, section title, and similarity score.
 
